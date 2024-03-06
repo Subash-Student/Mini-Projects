@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, rgb(24, 19, 19) , rgb(66, 216, 236));
+    color: #fff;
+}
+.container{
+    margin: 200px;
+    margin-top: 150px;
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+}
+.head h1{
+    font-size: 40px;
+    border-left: 5px solid;
+    padding-left: 40px;
+    
+}
+.head h1 span{
+    color: rgb(180, 220, 34);
+}
+.head h1 img{
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 30px;
+}
+.input-box{
+    margin-top: 80px;
+    background-color: rgba(127, 255, 212, 0.227);
+    max-width:600px;
+    width: 100%;
+    height: 150px;
+    padding: 35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.input-field{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 20pxpx;
+    border-radius: 10px;
+}
+.input-field input{
+    width: 75%;
+    border: 0cap;
+    outline: 0cap;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+.input-field button{
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 125px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(243, 140, 71);
+    color: #fff;
+    font-size: 20px;
+
+}
+.input-field button:hover{
+   background-color: rgb(252, 105, 0);
+}
+.reslt p{
+    margin-top: 80px;
+    color: rgb(231, 231, 231);
+    font-size: 25px;
+    
+}

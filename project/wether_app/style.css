@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+.card{
+    width: 90%;
+    max-width: 550px;
+    background-image: linear-gradient(to right, rgb(21, 85, 87) , rgb(74, 42, 113));
+    color: #fff;
+    border-radius: 25px;
+    text-align:center;
+    margin: 100px auto 0;
+    padding: 40px 30px;
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color :#555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    border-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search button img{
+    width: 15px;
+}
+.wether-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.Wether h1{
+    font-size: 80px;
+    font-weight: 00;
+}
+.Wether h2{
+    font-size: 80px;
+    font-weight: 00;
+    margin-top: 10px;
+}
+.details{
+    display: flex;
+    padding: 0 20px;
+    margin-top: 50px;
+    justify-content:space-between;
+
+}
+.col{
+    align-items:center;
+    display:flex;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+.Wether{
+    display: none;
+}
+.error{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+    display: none;
+    color: rgb(197, 48, 48);
+    
+}
