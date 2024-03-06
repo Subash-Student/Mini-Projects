@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7405feb5e9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="musicPlayer">
+            <nav>
+            <div class="circle">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="circle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <img src="images/download.jfif" class="songImg">
+        <h2>Jolly O Gymkhana </h2>
+        <p>Anirudh</p>
+
+     <audio id="song">
+        <source src="images/Jolly-O-Gymkhana-MassTamilan.so.mp3" type="audio/mpeg">
+     </audio>
+     <input type="range" value="0" id="progras">
+
+     <div class="controls">
+        <div class="FB"><i class="fa-solid fa-backward"></i></div>
+        <div class="play"><i class="fa-solid fa-play" id="ctrl" onclick="playPause()"></i></div>
+        <div class="FB"><i class="fa-solid fa-forward"></i></div>
+    </div>
+        </div>
+       
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
