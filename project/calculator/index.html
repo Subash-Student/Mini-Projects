@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <input type="text" readonly id="input">
+        </div>
+        <div class="keys">
+            <button style="color: rgb(41, 219, 255);" onclick="clearDisplay()">AC</button>
+            <button style="color: rgb(41, 219, 255);">DC</button>
+            <button onclick="appendValues('.')">.</button>
+            <button style="color: rgb(41, 219, 255);" onclick="appendValues('/')">/</button>
+            <button onclick="appendValues('7')">7</button>
+            <button onclick="appendValues('8')">8</button>
+            <button onclick="appendValues('9')">9</button>
+            <button style="color: rgb(41, 219, 255);" onclick="appendValues('*')">*</button>
+            <button onclick="appendValues('4')">4</button>
+            <button onclick="appendValues('5')">5</button>
+            <button onclick="appendValues('6')">6</button>
+            <button style="color: rgb(41, 219, 255);" onclick="appendValues('-')">-</button>
+            <button onclick="appendValues('1')">1</button>
+            <button onclick="appendValues('2')">2</button>
+            <button onclick="appendValues('3')">3</button>
+            <button style="color: rgb(41, 219, 255);" onclick="appendValues('+')">+</button>
+            <button onclick="appendValues('00')">00</button>
+            <button onclick="appendValues('0')">0</button>
+            <button style="color: rgb(41, 219, 255);" onclick="appendValues('%')">%</button>
+            <button style="color: rgb(41, 219, 255);" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
