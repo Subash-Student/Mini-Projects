@@ -1,0 +1,75 @@
+*{
+    border: 0cap;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,rgb(21, 86, 148),rgb(15, 8, 78));
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    
+    
+}
+.hero h1{
+    font-size: 40px;
+    color: rgb(236, 229, 229);
+}
+.hero span{
+    color: darkmagenta;
+    border-bottom: 3px solid;
+    padding-bottom: 15px;
+    
+}
+.hero textarea{
+    width: 500px;
+    height: 200px;
+    border-radius: 18px;
+    border: 0ch;
+    outline: 0ch;
+    padding: 18px;
+    font-size: 18px;
+    background-color: rgba(227, 227, 248, 0.244);
+    color: #fff;
+    margin: 30px 0 30px;
+}
+.hero textarea::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+.row{
+    display: flex;
+    gap: 20px;
+}
+.row button{
+    width: 120px;
+    padding: px;
+    border-radius: 35px;
+    font-size: 20px;
+    background-color: rgb(198, 9, 9);
+    color: #fff;
+}
+#icon1{
+    margin-right: 10px;
+    color: #fff;
+    width: 16px;
+}
+select{
+    
+    color: #f8ecec;
+    background: #113972;
+    height: 50px;
+    padding: 0 20px;
+    outline:  0;
+    border: 0cap;
+    border-radius: 35px;
+    font-size: 15px;
+    
+    
+}
+
